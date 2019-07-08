@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Article List</title>
+<body>
+<div>
+    {% for article in articles %}
+        <h1>{{ article.title }}</h1>
+        <div>{{ article.content }}</div>
+    {% endfor %}
+</div>
+</body>
